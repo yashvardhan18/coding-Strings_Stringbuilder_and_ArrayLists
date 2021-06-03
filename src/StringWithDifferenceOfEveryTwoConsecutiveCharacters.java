@@ -5,7 +5,7 @@ public class StringWithDifferenceOfEveryTwoConsecutiveCharacters {
 
     public static String solution(String str){
         // write your code here
-        StringBuilder sb=new StringBuilder(str);
+        StringBuilder sb=new StringBuilder();
         sb.append(str.charAt(0));
         for(int i=1;i<str.length();i++){
             char cur=str.charAt(i);
@@ -21,7 +21,7 @@ public class StringWithDifferenceOfEveryTwoConsecutiveCharacters {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         String str = scn.next();
-         System.out.println(solution(str));
+        System.out.println(solution(str));
     }
 
 }
