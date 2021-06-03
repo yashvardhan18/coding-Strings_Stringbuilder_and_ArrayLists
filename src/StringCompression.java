@@ -44,7 +44,7 @@ public class StringCompression {
         Scanner scn = new Scanner(System.in);
         String str = scn.next();
         System.out.println(compression1(str));
-         System.out.println(compression2(str));
+        System.out.println(compression2(str));
     }
 
 }
