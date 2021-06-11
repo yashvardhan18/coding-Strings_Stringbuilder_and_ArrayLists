@@ -12,7 +12,7 @@ public class RemovePrimes {
     }
 
     public static void solution(ArrayList<Integer> al){
-        // write your code here
+        
         for(int i=al.size()-1;i>=0;i--){
             int val= al.get(i);
             if(isprime(val)==true){
