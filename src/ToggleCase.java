@@ -4,7 +4,7 @@ import java.util.*;
 public class ToggleCase {
 
     public static String toggleCase(String str){
-        //write your code here
+        
         StringBuilder sb=new StringBuilder(str);
         for(int i=0;i<sb.length();i++){
             char ch=sb.charAt(i);
