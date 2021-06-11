@@ -4,7 +4,7 @@ import java.util.*;
 public class StringCompression {
 
     public static String compression1(String str){
-        // write your code here
+        
         String s = str.charAt(0)+ "";
         for(int i=1;i<str.length();i++){
             char curr=str.charAt(i);
