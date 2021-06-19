@@ -19,7 +19,6 @@ public class RemovePrimes {
                 al.remove(i);
             }
         }
-
     }
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
