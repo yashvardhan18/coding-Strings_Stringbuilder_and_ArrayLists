@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 
+
+
 public class StringWithDifferenceOfEveryTwoConsecutiveCharacters {
 
     public static String solution(String str){
